@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: lightblue;
+    width: 100%;
+    height: 100px; 
+    text-align: center;
+    color: white;
+    line-height: 100px; 
+}
+
+.container {
+    display: flex;
+    height: calc(100vh - 200px); 
+}
+
+.sidebar {
+    background-color: blue;
+    height: 700px ;
+    width: 25%;
+    color: white;
+    padding: 20px;
+}
+
+.main-content {
+    background-color: navajowhite;
+    width: 75%;
+    height: 700px;
+    color: white;
+    padding: 20px;
+}
+
